@@ -7,9 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>form</h1>
+    <h1>Bio-data</h1>
+    <sex>heal</sex>
 
     <form>
+        <fieldset>
+            <legend>personal information</legend>
         <label for="Firstname">Firstname</label>
         <input type="text" id="Firstname" placeholder="First name">
         <label for="LastName">LastName</label>
@@ -35,7 +38,9 @@
         <label for="P NO.">Phone:</label>
         <input type="number" id="P NO.">
         <br>
-        <h6> <hr> education</h6>
+        </fieldset>
+        <fieldset>
+        <legend> education</legend>
         <label for="schoolname">SchoolName:</label>
         <input type="text" id="schoolname" placeholder="School Name">
         <br>
@@ -54,6 +59,7 @@
        <label for="file">Marksheet</label>
        <input type="file" id="file">
        <br>
+        </fieldset>
        <br>
        <br>
        <button>submit</button>
