@@ -1,0 +1,48 @@
+-->desendent cmbinator
+#selector{
+    color: rgb(44, 155, 155);
+}
+/* -->child combinator
+/* ul>li{
+    color:deepskyblue ;
+} */
+-->immediate sibling comb
+/* li+li{
+    color: crimson;
+} */
+/* li~li{
+    color: blanchedalmond;
+} */ */
+nav a:link{
+    color: rgb(16, 19, 212);
+}
+nav a:visited{
+    color: white;
+}
+nav a:hover{
+    text-decoration: dotted;
+}
+nav a:active{
+    color: rgb(248, 4, 4);
+}
+nav{
+    background-color: chocolate;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: overline;
+    margin-top: 10px;
+}
+ol::first-letter{
+    font-size: 50px;
+}
+ol li:nth-child(2n){
+    background-color: darkorchid;
+}
+/* ol li:nth-last-child(3n){
+    background-color: chocolate;
+} */
+ol li::before{
+    content: "\00A7";
+}

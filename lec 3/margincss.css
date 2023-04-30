@@ -1,0 +1,36 @@
+.parent{
+    border: 2px solid black;
+    /* height: 600px; */
+    /* width: 750px; */
+    margin:0 auto auto;
+  
+}
+.child1{
+ border: 3px solid green;
+ height:600px;
+ width: 50%;
+ margin:0 auto auto;
+ /* text-align: center; */
+}
+p{
+    border: 2px solid gray;
+    /* float: left; */
+    clear: both;
+
+}
+.img1{
+    width: 10%;
+    float:right
+}
+.img2{
+    width: 10%;
+    float: left;
+}
+/* .child2{
+    border: 3px solid green;
+    height:350px;
+ width: 450px;
+ margin:0 auto;
+ text-align: center;
+    
+} */
