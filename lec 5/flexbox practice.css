@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 2 rem;
+}
+nav{
+    /* border: 2px solid rgb(246, 43, 43); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(246, 43, 43);
+    margin: 1.5rem 1rem;
+    padding: none;
+    background-color: #fec016;
+}
+.logo{
+    border: 2px solid black;
+    width: 180px;
+    /* padding: 1rem 1rem; */
+}
+img{
+    width: 100%;
+}
+.nav-links{
+    border: 2px solid black;
+}

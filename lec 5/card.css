@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(233, 205, 170);
+}
+
+.container{
+   border: 2px solid rgb(205, 24, 84);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 60vw;
+    /* height: 70vh; */
+    justify-content: center;
+    margin: auto;
+}
+.card{
+    border: 2px solid rgb(19, 115, 150);
+    /* height: 220px; */
+    width: 170px;
+    padding: 2px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-A{
+    /* border: 2px solid rgb(26, 8, 231); */
+}
+img{
+    width: 100%;
+}
+.section-B{
+    /* border: 2px solid rgb(71, 196, 29); */
+    width: 100%;
+    text-align: justify;
+}

@@ -1,0 +1,85 @@
+.container{
+    border: 2px solid black;
+    height:200px;
+    width:200px;
+    background-color:aqua;
+    margin: auto;
+    animation-name: changeState;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.container2{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    background-color:rgb(175, 247, 20); 
+    animation: changePos 2s linear;
+    animation-iteration-count: infinite;
+}
+.container3{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    background-color:rgb(175, 247, 20);
+    animation-iteration-count: infinite;
+    animation: changePos 2s ease-in;
+
+}
+.container4{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    background-color:rgb(175, 247, 20);
+    animation-iteration-count: infinite;
+    animation: changePos 2s ease-out;
+
+}
+.container5{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    background-color:rgb(175, 247, 20);
+    animation-iteration-count: infinite;
+    animation: changePos 2s ease-in-out ;
+
+}
+
+
+
+@keyframes changeState {
+    /* from{
+        border-radius: 0%;
+    }
+    to{
+        border-radius: 50%;
+    }
+     */
+    0%{
+        border-radius: 0%;
+    }
+    50%{
+        background-color: bisque;
+        border-radius: 12.5;
+    }
+    75%{
+        background-color: brown;
+        border-radius: 25%;
+    }
+    100%{
+        border-radius: 50%;
+    }
+    
+}
+
+@keyframes changePos {
+    
+    50%{
+        transform: translate(150px);
+
+    }
+    
+    
+    100%{
+        transform: translate(300px);
+    }
+}
