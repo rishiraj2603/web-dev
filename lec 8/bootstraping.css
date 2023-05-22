@@ -1,0 +1,13 @@
+.navba{
+    background-color: bisque;
+}
+.container{
+    height: 50vh;
+    /* border: 2px solid black; */
+}
+.carouselHeight{
+    height: 80vh;
+}
+.carouselItems img{
+    align-items: center;
+}
