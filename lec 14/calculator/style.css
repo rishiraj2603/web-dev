@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: comic sans MS;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    /* height: 40%; */
+    width: 450px;
+    margin: 50px auto;
+}
+
+.display{
+
+}
+
+input{
+    display: block;
+    font-size: 1.8rem;
+    margin: 15px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+table{
+    margin: 0 auto;
+}
+td{
+    height: 3rem;
+    width: 5rem;
+   
+}
+button{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    font-size: 15px; 
+    transition: 100ms;
+}
+button:active{
+    transform: scale(0.8);
+}
+
+button:hover{
+    cursor: pointer;
+}

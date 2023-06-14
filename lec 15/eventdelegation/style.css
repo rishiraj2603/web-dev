@@ -1,0 +1,17 @@
+.container{
+    border: 2px solid black;
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    margin: 0 auto;
+}
+
+.child{
+    border: 2px solid black;
+    width: 10vw;
+    height: 10vh;
+    background-color: rgb(126, 250, 2);
+   margin: 25px 15px;
+}
