@@ -13,6 +13,10 @@
 // console.log(prevLi);
 
 // dynamic programing ------
+// createElement
+// before after
+// remove child
+// append 
 
 const newLi = document.createElement('li');
 newLi.innerText ='hello' ;

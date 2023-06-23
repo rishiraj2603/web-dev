@@ -40,8 +40,6 @@ let data =[
 // arr.forEach((val, ind, arr)=>{
 //     console.log(val, ind);
 // });
-
-
 let Arr = [1,23,32,4,5]
 let Arr2 = ['ak','arr','rew','dfsa']
 
