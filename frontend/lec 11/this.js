@@ -15,12 +15,12 @@
 let student1 = {
     name:'abx',
     age:23,
-    rollNo:01
+    rollNo:8
 }
 let student2 = {
     name:'asadx',
     age:233,
-    rollNo:04
+    rollNo:4
 }
 
 function update( age, name){
@@ -47,9 +47,9 @@ function Student(name, age , rollNo){
     this.rollNo = rollNo;
 }
 
-let student3 = new Student('sdfsa',32 ,001);
-let student4 = new Student('sefs',3232 ,0013);
-let student5 = new Student('sdfs242fdca',4532 ,00321);
+let student3 = new Student('sdfsa',32 ,1);
+let student4 = new Student('sefs',3232 ,13);
+let student5 = new Student('sdfs242fdca',4532 ,321);
  
 console.log(student3);
 console.log(student4);
