@@ -23,8 +23,6 @@ var person = {
     age : 23 ,
     isAdult : true ,
     marks : [32,4,4,323,44,21]
-
-
 }
  console.log(person.names);
  console.log(person['full name']);

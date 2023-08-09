@@ -12,18 +12,22 @@ var arr = [32,444,2,3,4,3,23,4,2,32,4,2];
 
 //---------- for in loop for object 
 
-var person = {
-    names: "abc",
-    'full name': "ab dasfc",
-    age : 23 ,
-    isAdult : true ,
-    marks : [32,4,4,323,44,21]
-}
+// var person = {
+//     names: "abc",
+//     'full name': "ab dasfc",
+//     age : 23 ,
+//     isAdult : true ,
+//     marks : [32,4,4,323,44,21]
+// }
 
-for(var key in person){
-    console.log(person[key]);
-}
+// for(var key in person){
+//     console.log(person[key]);
+// }
 
 //---------- for each next time
 
+var arr1 = [32,444,2,3,4,3,23,4,2,32,4,2];
+arr1.forEach((item ,index,arr)=>{
+    console.log({item,index})
 
+})

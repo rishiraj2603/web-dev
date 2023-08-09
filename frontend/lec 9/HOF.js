@@ -23,14 +23,14 @@ function movies(x){
     }
 
     if(x===1){
-       return marvel();
+       return marvel;
     }
     else if(x===2) {
-        return DC();
+        return DC;
     }
-    if(x===3) return avatar();
+    if(x===3) return avatar;
 
 }
 
-let movie = movies(1);
+let movie = movies(1)();
 console.log(movie);
