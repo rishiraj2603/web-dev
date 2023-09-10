@@ -1,0 +1,12 @@
+cookies  and session 
+
+storage: of two types
+1. client side                                                 2.server side
+    a.local storage 
+    b.session storagec.
+    c.session
+
+stateless .... statefull
+
+stateless: independent API's are called stateless
+statefull: interdependent API's are called statefull

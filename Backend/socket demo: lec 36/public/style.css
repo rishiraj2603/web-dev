@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    /* border: 2px solid black; */
+
+    padding: 0;
+}
+
+h2{
+    margin: 0 auto;
+    padding: 15px;
+    /* border: 2px solid black; */
+    width: fit-content;
+    font-size: 1.8rem;
+}
+.chat-box{
+    overflow-y: auto;
+    border-bottom:2px solid black ;
+    width: 35vw;
+    height: 70vh;
+    /* border: 2px solid black; */
+}
+.sender{
+    background-color:#A9E190 ;
+}
+.receiver{
+    background-color:#C0FDFB ;
+}
+.msg{
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 5px;
+    width:fit-content;
+    font-size: 25px;
+    font-weight: 350;
+    /* border: 2px solid black; */
+}
+.message-box{
+    width: 35vw;
+    /* height: 10vh; */
+    /* border: 3px solid rgb(0, 255, 26); */
+}
+
+.main-box{
+    margin: 0 auto;
+    /* height: 80vh; */
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 35vw;
+
+}
